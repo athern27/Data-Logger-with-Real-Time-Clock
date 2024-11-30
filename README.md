@@ -1,5 +1,6 @@
+STM32 F446RE with FreeRTOS 
 This project presents the design and implementation of a robust, real-time data logging system using the STM32F446RE microcontroller, integrated with FreeRTOS for efficient multitasking. The system collects and logs environmental data using sensors such as system core temperature, RCWL-0516 (proximity), and MQ135 (air quality). A Real-Time Clock (RTC) ensures precise timestamping, while an OLED SSD1306 displays real-time data for immediate visualization. Simultaneously data is reliably stored on an SD card. An interrupt attached to a switch also demonstrates the ability to use interrupts in FreeRTOS using semaphores.
 RTOS mechanisms like mutexes, semaphores and queues are employed to synchronize tasks, ensuring safe access to shared resources, such as the OLED and SD card, and efficient data handling. The modular architecture facilitates debugging and future scalability, making the system versatile for various applications. This project emphasizes real-time responsiveness, offering a practical solution for environments requiring continuous monitoring and data archiving.
 The implementation was tested rigorously, and the system demonstrated seamless integration of components, robust task synchronization, and reliable data storage, validating its effectiveness for real-world deployment.
-![image](https://github.com/user-attachments/assets/ffa65172-dd46-42a9-a473-57a90cbf6bd1)
-STM32 F446RE with FreeRTOS 
+
+
